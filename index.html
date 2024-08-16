@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroMarket</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Playfair Display', serif;
+    }
+    .hero {
+      background-color: #f9f9f9;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .hero-text {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .navbar {
+      font-family: 'Playfair Display', serif;
+    }
+    .hero-title {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .hero-subtitle {
+      font-size: 1.25rem;
+      margin-bottom: 20px;
+    }
+    .content-section {
+      padding: 60px 0;
+    }
+    .footer {
+      background-color: #f1f1f1;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .carousel-item{
+        height: 800px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/wheat.svg" alt="Wheat icon" height="50px" width="50px"> AgroMarket</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contact1.html">
+                <i class='fas fa-phone'></i> Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map1.html"><i class="fa fa-map-marker-alt"></i> Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="regform.html"><i class="fa fa-registered" aria-hidden="true"></i></i> Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h1 class="hero-title">Welcome to AgroMarket, your one-stop online marketplace connecting farmers, suppliers, and consumers.</h1>
+        <p class="hero-subtitle">Whether you're looking to buy fresh produce, source agricultural equipment, or sell your farm products, AgriMarket offers a seamless platform for all your needs. Discover a wide variety of locally sourced products, compare prices, and connect directly with trusted sellers. Join our community to support sustainable farming and enjoy the best of what agriculture has to offer. AgriMarket – bringing the farm to your doorstep.</p>
+      </div>
+      <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/image 4.webp" class="d-block w-100" alt="Event Image 1" data-bs-toggle="modal" data-bs-target="#imageModal1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/image 6.png" class="d-block w-100" alt="Event Image 3" data-bs-toggle="modal" data-bs-target="#imageModal3">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img2.jpg" class="d-block w-100" alt="Event Image 2" data-bs-toggle="modal" data-bs-target="#imageModal2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img3.jpg" class="d-block w-100" alt="Event Image 3" data-bs-toggle="modal" data-bs-target="#imageModal3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 AgroMarket. All Rights Reserved. <i class="fa-solid fa-farm"></i></p>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
